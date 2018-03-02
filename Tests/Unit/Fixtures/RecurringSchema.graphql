@@ -1,0 +1,8 @@
+type Query {
+    bestFriend: Friend
+}
+
+type Friend {
+    name: String
+    friends: [Friend]
+}
